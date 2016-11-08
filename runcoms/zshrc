@@ -11,3 +11,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+# Add env.sh
+source ~/.vsrc/.config/env.sh
+
+. ~/.vsrc/z/z.sh
+
+tmux
